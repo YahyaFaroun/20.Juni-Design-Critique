@@ -1,0 +1,254 @@
+/*Verstehe nicht warum die Schriftart nicht gelden wird!!!*/
+@font-face {
+  font-family: GM;
+  src: url(../Fonds/Graphik-Medium.ttf);
+}
+@font-face {
+  font-family: GR;
+  src: url(../Fonds/Graphik-Regular.woff);
+}
+@font-face {
+  font-family: TH;
+  src: url(../Fonds/TiemposHeadline-Semibold.woff);
+}
+@font-face {
+  font-family: T-Lt;
+  src: url(../Fonds/Theinhardt-Lt.woff);
+}
+/* Treffe die Schrift nicht!!!!!!!!! */
+
+
+
+/* Farben */
+.col1{color: #2B2C2E;}
+.col2{color: #27282A;}
+.col3{color: #3D3E41;}
+.col4{color: #848689;}
+.col5{color: #9FA2A7}
+.col6{color: #fff;}
+.col9{color: red;}
+
+/* Schriftarten*/
+.fontGM{font-family: GM;}
+.fontGR{font-family: GR;}
+.fontTH-S{font-family: TH-S;}
+.fontT-L{font-family: T-L;}
+
+/* P Textstils*/
+.p1{
+  font-family: GM;
+  color: #2B2C2E;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 40px;}
+.p2{
+  font-family: T-Lt;
+  color: #848689;
+  font-size: 1.4em;
+}
+.p3{
+  font-family: T-Lt;
+  color: #9FA2A7;
+  font-size: 1.1em;
+  line-height: 30px;
+}
+.p5{
+  font-family: GM;
+  color: #848689;
+  font-size: 1.4em;
+  line-height: 50px;
+}
+
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+h1{
+  font-family: TH;
+  font-size: 3.8em;
+}
+h2 {
+  font-family: GR;
+  font-size: 2.4em;
+  font-weight: lighter;
+}
+h3{
+  font-family: GM;
+  font-size: 1.6em;
+}
+
+
+body, h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+}
+
+header nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3vh;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+header li a {
+  font-family: GR;
+  color: #3D3E41;
+  font-size: .85em;
+}
+header nav div {
+  margin: auto 0;
+  align-content: center;
+  text-align: center;
+}
+header nav div:first-of-type a {
+  color: #2B2C2E;
+  font-family: TH-S;
+  font-size: 1.8em;
+  font-weight: bold;
+  
+}
+header nav div:last-of-type a {
+  font-family: GM;
+  border: 2px solid #3D3E41;
+  font-size: 1.1em;
+  padding: 7px 50px;
+  border-radius: 5px;
+  color: #3D3E41;
+}
+header nav div:last-of-type a:hover {
+  color: #fff;
+  background-color: #2B2C2E;
+}
+
+
+
+#man h2 {
+  font-family: GM;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 15vh;
+}
+#man img {
+  width: 100%;
+  margin-bottom: 30vh;
+}
+#man div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+#man div p:first-of-type {
+  padding: 0 10%;
+}
+#man div div{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+}
+#man div div p:first-of-type{
+  font-size: 4em;
+  padding-left: 0;
+  letter-spacing: 4px;
+}
+#man div div p:last-of-type{
+  padding-left: 0;
+  font-size: 1.4em;
+}
+
+
+
+/*Box links 40% rechts 60% */
+#rabbit{
+  margin: 25vh 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#rabbit div:first-of-type img{
+  width: 100%;
+}
+#rabbit div:last-of-type{ 
+  padding: 20px 0 0 5%;
+  height: 20vh;
+  flex-basis: 2;
+}
+#rabbit div h1{
+  padding-bottom: 5vh;
+}
+#rabbit div h3{
+  padding: 4vh 0 2vh;
+}
+
+
+
+#blonde{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: lightgray;
+  margin: 0 8% 15vh;
+  padding-left: 5%;
+}
+#blonde div:first-of-type{
+  padding-right: 10%;
+}
+#blonde h1{
+  padding-top: 5vh;
+  font-size: 3.2em;
+}
+#blonde img{
+  width: 100%;
+}
+#blonde li{
+  font-size: .9em;
+}
+#blonde p{
+  font-size: 1.2em;
+}
+
+
+
+#percent28 h1{
+  text-align: center;
+  padding-bottom: 5vh;
+  font-size: 3em;
+}
+#percent28 p:first-of-type{
+  text-align: center;
+  margin-bottom: 20vh;
+}
+#percent28 img:first-of-type{  
+  width: 100%; 
+}
+#percent28 p:last-of-type{
+  padding-left: 22%;
+  text-align: left;
+}
+#percent28 div:last-of-type{
+  margin-left: 50%;
+  transform: translateY(-240px);
+  padding-right: 10%;
+}
+
+
+
+footer h1{
+  text-align: center;
+  font-size: 3em;
+}
+footer img{
+  height: 20vh;
+}
+footer div{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+footer span{
+  color: #27282A;
+}
